@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 export default function Login() {
   const [password, setPassword] = useState("");
-  const correctPassword = "12345678";
+  const correctPassword = "123456789";
   const [status, setStatus] = useState();
   const navigate = useNavigate();
   const validate = (e) => {

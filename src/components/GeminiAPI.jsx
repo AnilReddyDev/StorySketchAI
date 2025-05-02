@@ -16,7 +16,7 @@ function GeminiAPI() {
   };
   useEffect(() => {
     const value = localStorage.getItem("password");
-    if (value === "12345678") {
+    if (value === "123456789") {
       navigate("/home");
     } else {
       navigate("/");
